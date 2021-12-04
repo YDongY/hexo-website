@@ -3,17 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: YDongY
+subtitle: '博观而约取，厚积而薄发'
+description: '基于 Hexo 构建的小破站'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - Hexo
+  - Blog
+author: YDongY
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.ydongy.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
