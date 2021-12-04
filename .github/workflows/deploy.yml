@@ -1,0 +1,45 @@
+name: Deploy Hexo on Aliyun ECS
+
+on:
+  push:
+    branches:       # 只在 master 上 push 触发部署
+      - master  
+    paths-ignore:   # 下列文件的变更不触发部署，可以自行添加
+      - README.md
+      - LICENSE
+      - .gitignore
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v2
+    
+      - name: 安装 Node.js 16.x 
+        uses: actions/setup-node@master
+        with:
+          node-version: "16.x"
+
+      - name: 安装 Hexo 依赖
+        run: |
+          npm install hexo-cli -g
+          npm install
+
+      - name: 构建 Hexo
+        run: |
+          hexo clean
+          hexo generate
+      
+      - name: Deploy
+        uses: AEnterprise/rsync-deploy@v1.0 # Use a third party action (https://github.com/AEnterprise/rsync-deploy)
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}   # use pre-configured secret (the private key)
+          ARGS: "-avz --delete"                   # must have this variable
+          SERVER_PORT: ${{ secrets.DEPLOY_PORT }} # SSH port
+          FOLDER: "./public/*"                    # folder to push (./ is the root of current repo)
+          SERVER_IP: ${{ secrets.DEPLOY_HOST }}   # use pre-configured ssh_host value (e.g., IP or domain.com）
+          USERNAME: ${{ secrets.DEPLOY_USER }}    # use pre-configured ssh_username value
+          SERVER_DESTINATION: "/var/www/hexo-website"   # put your repo files on this directory of the remote server
