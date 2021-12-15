@@ -1,0 +1,200 @@
+操作系统:
+  title: 操作系统
+  tags: 计算机基础
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/linux.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+计算机网络:
+  title: 计算机网络
+  tags: 计算机基础
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/network.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+数据结构与算法:
+  title: 数据结构与算法
+  tags: 计算机基础
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/datastructures.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+计算机组成原理:
+  title: 计算机组成原理
+  tags: 计算机基础
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/motherboard.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Shell:
+  title: Shell 实用教程
+  tags: 编程语言
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/gnubash.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+C:
+  title: C 实用教程
+  tags: 编程语言
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/c.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Golang:
+  title: Golang 实用教程
+  tags: 编程语言
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/golang.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Python:
+  title: Python 实用教程
+  tags: 编程语言
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/python.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Django:
+  title: Django 实用教程
+  tags: 框架
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/django.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Flask:
+  title: Flask 实用教程
+  tags: 框架
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/flask.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Git:
+  title: Git 实用教程
+  tags: 工具
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/git.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Docker:
+  title: Docker 实用教程
+  tags: 容器化
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/docker.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Kubernetes:
+  title: Kubernetes 实用教程
+  tags: 容器化
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/kubernetes.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Nginx:
+  title: Nginx 使用教程
+  tags: 服务器
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/nginx.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+MySQL:
+  title: MySQL 使用教程
+  tags: 数据库
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/mysql.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Redis:
+  title: Redis 使用教程
+  tags: 数据库
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/redis.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+MongoDB:
+  title: MongoDB 使用教程
+  tags: 数据库
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/mongodb.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+ElasticSearch:
+  title: ElasticSearch 使用教程
+  tags: 中间件
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/elasticsearch.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+Kafka:
+  title: Kafka 使用教程
+  tags: 中间件
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/kafka.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+
+RabbitMQ:
+  title: RabbitMQ 使用教程
+  tags: 中间件
+  logo:
+    src: https://hexo-website-pic.oss-cn-hangzhou.aliyuncs.com/rabbitmq.svg
+    small: 96px
+    large: 128px
+  start: 开始阅读
+  cover: true
+

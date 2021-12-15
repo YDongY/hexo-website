@@ -5,8 +5,9 @@ sidebar:
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
     post: '[btn.blog](/)'
-    wiki: '[btn.wiki](/wiki/)'
-    tools: '[工具](/tools/)'
+    wiki: '[文档](/wiki/)'
+    tool: '[工具](/tool/)'
+    book: '[书籍](/book/)'
     about: '[关于](/about/)'
   widgets:
     # Recent update
